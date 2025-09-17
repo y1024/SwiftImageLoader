@@ -11,11 +11,11 @@ Features memory & disk caching, request aggregation, background decoding, and pl
 
 ## ✨ Features / 特性
 
-- 🧠 **Memory cache / 内存缓存** (stores compressed `UIImage`, reduces RAM usage 存储压缩后的 `UIImage`，节省内存)
+- 🧠 **Memory cache / 内存缓存** (stores compressed `UIImage/NSImage`, reduces RAM usage 存储压缩后的 `UIImage/NSImage`，节省内存)
 - 💾 **Disk cache / 磁盘缓存** (stores raw compressed `Data` 存储压缩数据)
 - 🔄 **Request aggregation / 请求聚合** (multiple requests for the same URL are merged 多个相同 URL 的请求会合并)
 - ⚡ **Background decoding / 后台解码** (main thread stays smooth 主线程不卡顿)
-- 🎨 **Custom decoders / 自定义解码器** (support WebP/HEIF on older iOS versions 在低版本 iOS 上支持 WebP/HEIF)
+- 🎨 **Custom decoders / 自定义解码器,可以实现低版本系统支持HEIF/WebP ** (support WebP/HEIF on older iOS versions 在低版本 iOS 上支持 WebP/HEIF)
 - 🎯 **Configurable concurrency / 可配置并发** (limit max simultaneous requests 限制最大同时请求数)
 
 ---
